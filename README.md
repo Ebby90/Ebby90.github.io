@@ -9,4 +9,5 @@ Hello all, my name is Ebony Gurley. I am currently pursuing a associates degree 
 I like making tshirts, drawing/painting and braiding hair.
 ## 🌐Websites I Recommend 🌐
 (https://scholar.google.com/) - provides a simple way to broadly search for scholarly literature. Can be used for writing papers but make sure you credit source and use corrrect citation/quotation.
+
 (www.google.com) - can be used to search the World Wide Web
