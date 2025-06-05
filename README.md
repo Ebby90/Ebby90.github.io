@@ -13,3 +13,4 @@ I like making tshirts, drawing/painting and braiding hair.
 (https://scholar.google.com/) - provides a simple way to broadly search for scholarly literature. Can be used for writing papers but make sure you credit source and use corrrect citation/quotation.
 
 (www.google.com) - can be used to search the World Wide Web
+git checkout -b lesson7
