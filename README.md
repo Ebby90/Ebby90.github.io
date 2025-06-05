@@ -2,5 +2,6 @@
 Ebony Gurley
 
 git checkout -b lesson7
+git add lesson7.html
 
 
