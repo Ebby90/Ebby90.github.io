@@ -1,10 +1,7 @@
 # Ebby90.github.io
 Ebony Gurley
 
-git checkout -b lesson7
-
-git add lesson7.html
-
-git commit -m "Added lesson7.html file"
-
-git push -u origin lesson7
+git checkout -b lesson7  # Create and switch to new branch
+git add .                # Stage changes
+git commit -m "Initial commit for lesson7"  # Commit changes
+git push -u origin lesson7  # Push to remote and set upstream
