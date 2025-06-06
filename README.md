@@ -3,7 +3,7 @@ Ebony Gurley
 
 git checkout -b lesson7  # Create and switch to new branch
 
-git add .                # Stage changes
+git add                # Stage changes
 
 git commit -m "Initial commit for lesson7"  # Commit changes
 
