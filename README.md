@@ -1,7 +1,7 @@
-git checkout main          # Switch to main branch
+git checkout -b lesson7  # Create and switch to new branch
 
-git pull origin main       # Get the latest changes (optional but recommended)
+git add .         # Stage changes
 
-git branch -d lesson7      # Delete the local lesson7 branch
+git commit -m "Initial commit for lesson7"  # Commit changes
 
-git push origin --delete lesson7  # Delete the remote lesson7 branch
+git push -u origin lesson7  # Push to remote and set upstream
