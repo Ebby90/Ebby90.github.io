@@ -36,17 +36,17 @@
             // get the years to calculate
             const years = document.getElementById("years").value;
 			
-			//total number of payments and monthly Interest Rate
+	    //total number of payments and monthly Interest Rate
             const numberOfPayments = years * 12;
-			const monthlyInterestRate = rate / 12;
+	    const monthlyInterestRate = rate / 12;
 		
             if (rate === 0) {
                 document.getElementById("result").innerText = "Interest rate cannot be zero.";
                 return;
             }
 			
-			// Call the power funtion, pow, from Math
-			const monthlyRate = Math.pow(1 + monthlyInterestRate, numberOfPayments);
+	    // Call the power funtion, pow, from Math
+	    const monthlyRate = Math.pow(1 + monthlyInterestRate, numberOfPayments);
             const monthlyPayment = (principal * monthlyInterestRate * monthlyRate) / (monthlyRate - 1);
 			
             document.getElementById("result").innerText = `Your monthly payment is $${monthlyPayment.toFixed(2)}`;
