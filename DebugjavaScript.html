@@ -31,12 +31,12 @@
         function calculateMortgage() {
             // Get the initial amount from the principal box
             const principal = document.getElementById("principal").value;
-            // update rate from the box
+            // Update rate from the box
             const rate = document.getElementById("rate").value / 100;
-            // get the years to calculate
+            // Get the years to calculate
             const years = document.getElementById("years").value;
 			
-	    //total number of payments and monthly Interest Rate
+	    // Get total number of payments and monthly Interest Rate
             const numberOfPayments = years * 12;
 	    const monthlyInterestRate = rate / 12;
 		
